@@ -11,7 +11,7 @@ public class Object_Array : MonoBehaviour
     private Transform tf;
     private Renderer rend;
 
-    void Start()
+    private void Start()
     {
         tf = GetComponent<Transform>();
         rend = GetComponent<Renderer>();
@@ -22,8 +22,7 @@ public class Object_Array : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         xpos = tf.position.x;
         ypos = tf.position.y;
